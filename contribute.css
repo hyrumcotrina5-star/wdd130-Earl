@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5D1451;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik", sans-serif;
+
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #14868C;
+    padding: 16px 40px;
+    border-bottom: 1px solid #ddd;
+    font-family: "Rubik", sans-serif;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+}
+
+nav a[href="search bar"] {
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    padding: 8px 20px;
+}
+
+nav a:hover {
+    color: #2F416D;
+}
+
+.contribute-section {
+    background-color: #94CECA;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contribute-section h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contribute-section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.contribute-section h3 {
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+
+.collections {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.collection-item {
+    width: 30%;
+}
+
+.collection-item img {
+    width: 200px;
+    height: 140px;
+    margin-bottom: 10px;
+    background-color: #ddd;
+}
+
+.collection-item a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+}
+
+.collection-item a:hover {
+    color: #2F416D;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px 0;
+    background-color: #14868C;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin-left: 20px;
+}
+
+footer a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+}
+
+footer a:hover {
+    color: #2F416D;
+}
