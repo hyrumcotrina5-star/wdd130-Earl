@@ -121,14 +121,18 @@ main {
     font-optical-sizing: auto
 }
 
-.filters ul {
+.filters form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     list-style: none;
     margin-bottom: 20px;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto
 }
 
-.filters li {
+.filters label {
+    display: flex;
     padding: 4px 0;
     font-size: 20px;
     font-family: "Nunito", sans-serif;
@@ -143,6 +147,7 @@ main {
     border: 1px solid #ddd;
     justify-content: space-around;
     align-items: center;
+    height: 100px;
 }
 .media-types img{
     height: 60px;
